@@ -15,18 +15,18 @@ public class ProjetoController {
     public List<Map<String, String>> getProjetos() {
         return List.of(
                 Map.of(
-                        "titulo", "Projeto 1",
-                        "descricao", "Este é o projeto 1",
+                        "titulo", "Casa Cor",
+                        "descricao", "A CASACOR é a principal mostra de arquitetura, design de interiores e paisagismo das Américas. Reúne anualmente profissionais renomados que apresentam ambientes sofisticados, inovadores e cheios de personalidade. É um espaço onde tendências se encontram e a criatividade ganha forma.",
                         "imagem", "/imagens/projeto1.png"
                 ),
                 Map.of(
-                        "titulo", "Projeto 2",
-                        "descricao", "Este é o projeto 2",
+                        "titulo", "Decor Year Book",
+                        "descricao", "O Decor Year Book é uma publicação anual que reúne os principais projetos e profissionais do design, arquitetura e decoração. Serve como referência de tendências e inspiração para o setor, destacando o que há de mais relevante e criativo no mercado.",
                         "imagem", "/imagens/projeto2.png"
                 ),
                 Map.of(
-                        "titulo", "Projeto 3",
-                        "descricao", "Este é o projeto 3",
+                        "titulo", "Clientes",
+                        "descricao", "Clientes que confiam no trabalho da arquiteta para transformar seus espaços com criatividade, funcionalidade e estética. Cada projeto é desenvolvido de forma personalizada, respeitando os desejos e necessidades de quem sonha com um ambiente único e bem planejado.",
                         "imagem", "/imagens/projeto3.png"
                 )
         );
